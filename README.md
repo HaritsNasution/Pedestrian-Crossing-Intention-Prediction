@@ -1,0 +1,3 @@
+* PrepareCNN.ipynb and PrepareYOLO.ipynb is where preprocessings were done on the data in order to create an ideal data to train YOLO and I3D (CNN).
+* TrainingYOLO.ipynb and TrainingI3D.ipynb is where the training process happens and the various experiments it involves to increase the performance. The training was fully done on Google Colab hence why the training were split to many parts because of colab incapability to train a full duration.
+* SistemPrediksiIntegrated.ipynb is where the fully integrated model is implemented consisting of the Object Detection YOLOv8, Object Tracker BoT-SORT, PoseEstimator, and lastly the action prediction using I3D
